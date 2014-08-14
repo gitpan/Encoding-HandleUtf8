@@ -1,0 +1,67 @@
+{
+   "abstract" : "Fix the encoding for Perl value store (input) and general output (output) to a console or the web.",
+   "author" : [
+      "BURNERSK <burnersk@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141520",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Encoding-HandleUtf8",
+   "no_index" : {
+      "directory" : [
+         "example",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Clone" : "0",
+            "Encoding::FixLatin" : "0",
+            "Exporter" : "0",
+            "base" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "1.001003",
+            "Test::NoWarnings" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Encoding::HandleUtf8" : {
+         "file" : "lib/Encoding/HandleUtf8.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/burnersk/Encoding-HandleUtf8/issues"
+      },
+      "homepage" : "https://github.com/burnersk/Encoding-HandleUtf8",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/burnersk/Encoding-HandleUtf8.git",
+         "web" : "https://github.com/burnersk/Encoding-HandleUtf8"
+      }
+   },
+   "version" : "0.001",
+   "x_contributors" : [
+      "BURNERSK <burnersk@cpan.org>"
+   ]
+}
+
