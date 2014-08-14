@@ -10,3 +10,4 @@ cpanfile
 lib/Encoding/HandleUtf8.pm
 t/101-fix_encoding.t
 t/102-fix_encoding_return.t
+t/201-bugs.t
