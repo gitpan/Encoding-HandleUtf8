@@ -1,7 +1,7 @@
 use strict;
 use warnings FATAL => 'all';
 
-use Test::More 1.001003 tests => 1 + 14;
+use Test::More tests => 1 + 14;
 use Test::NoWarnings;
 
 ############################################################################

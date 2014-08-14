@@ -6,7 +6,7 @@ requires "base" => "0";
 requires "perl" => "5.010";
 
 on 'test' => sub {
-  requires "Test::More" => "1.001003";
+  requires "Test::More" => "0";
   requires "Test::NoWarnings" => "0";
 };
 

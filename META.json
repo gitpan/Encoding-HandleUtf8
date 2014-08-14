@@ -37,7 +37,7 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "1.001003",
+            "Test::More" : "0",
             "Test::NoWarnings" : "0"
          }
       }
@@ -59,7 +59,7 @@
          "web" : "https://github.com/burnersk/Encoding-HandleUtf8"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_contributors" : [
       "BURNERSK <burnersk@cpan.org>"
    ]

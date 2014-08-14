@@ -27,10 +27,10 @@ my %WriteMakefileArgs = (
     "base" => 0
   },
   "TEST_REQUIRES" => {
-    "Test::More" => "1.001003",
+    "Test::More" => 0,
     "Test::NoWarnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,7 +42,7 @@ my %FallbackPrereqs = (
   "Clone" => 0,
   "Encoding::FixLatin" => 0,
   "Exporter" => 0,
-  "Test::More" => "1.001003",
+  "Test::More" => 0,
   "Test::NoWarnings" => 0,
   "base" => 0
 );
