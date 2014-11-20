@@ -4,7 +4,7 @@
       "BURNERSK <burnersk@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141520",
+   "generated_by" : "Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "mit"
    ],
@@ -31,14 +31,17 @@
             "Clone" : "0",
             "Encoding::FixLatin" : "0",
             "Exporter" : "0",
+            "List::Util" : "0",
             "base" : "0",
             "perl" : "5.010"
          }
       },
       "test" : {
          "requires" : {
+            "English" : "0",
             "Test::More" : "0",
-            "Test::NoWarnings" : "0"
+            "Test::NoWarnings" : "0",
+            "Test::Warn" : "0"
          }
       }
    },
@@ -59,7 +62,7 @@
          "web" : "https://github.com/burnersk/Encoding-HandleUtf8"
       }
    },
-   "version" : "0.003",
+   "version" : "0.004",
    "x_contributors" : [
       "BURNERSK <burnersk@cpan.org>"
    ]
